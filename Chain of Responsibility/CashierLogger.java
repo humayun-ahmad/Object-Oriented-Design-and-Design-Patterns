@@ -1,5 +1,5 @@
 public class CashierLogger extends AbstractLogger{
-	public CashierLogger(){
+	public CashierLogger(int level){
 		this.level = level;
 	}
 

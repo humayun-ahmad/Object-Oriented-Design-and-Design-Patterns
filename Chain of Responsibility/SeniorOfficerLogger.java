@@ -1,5 +1,5 @@
 public class SeniorOfficerLogger extends AbstractLogger{
-	public SeniorOfficerLogger(){
+	public SeniorOfficerLogger(int level){
 		this.level = level;
 	}
 

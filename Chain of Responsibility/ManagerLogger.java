@@ -1,5 +1,5 @@
 public class ManagerLogger extends AbstractLogger{
-	public ManagerLogger(){
+	public ManagerLogger(int level){
 		this.level = level;
 	}
 

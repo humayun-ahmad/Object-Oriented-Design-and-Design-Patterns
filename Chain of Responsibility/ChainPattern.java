@@ -15,9 +15,9 @@ public class ChainPattern{
 
 	public static void main(String[] args){
 		AbstractLogger loggerChain = getChainOfLoggers();
-		loggerChain.logMessage(AbstractLogger.cashier, "cashier.");
-		loggerChain.logMessage(AbstractLogger.seniorOfficer, "senior officer");
-		loggerChain.logMessage(AbstractLogger.manager, "manager");
+		loggerChain.logMessage(AbstractLogger.cashier, 5000 );
+		loggerChain.logMessage(AbstractLogger.seniorOfficer, 70000);
+		loggerChain.logMessage(AbstractLogger.manager, 100000);
 	}	
 
 
