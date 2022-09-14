@@ -24,3 +24,5 @@ public abstract class AbstractLogger{
 	abstract protected void write(String message);
 
 }
+
+
